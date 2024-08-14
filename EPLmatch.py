@@ -14,7 +14,7 @@ Index1 = ['11R','12R','13R','14R','15R','16R','17R','18R','19R','20R']
 Index2 = ['21R','22R','23R','24R','25R','26R','27R','28R','29R','30R']
 Index3 = ['31R','32R','33R','34R','35R','36R','37R','38R']
 from PIL import Image
-Fulham_img = Image.open('\Users\kimjuwon\Desktop\프로젝트\LogoFile\Fulham_FC__shield_.jpg')
+Fulham_img = Image.open('/Users/kimjuwon/Desktop/프로젝트/LogoFile/Fulham_FC__shield_.jpg')
 Bournemouth_img =Image.open('/Users/kimjuwon/Desktop/프로젝트/LogoFile/AFC_Bournemouth_(2013).jpg')
 Arsenal_img = Image.open('/Users/kimjuwon/Desktop/프로젝트/LogoFile/Arsenal_FC.jpg')
 AstonVilla_img = Image.open('/Users/kimjuwon/Desktop/프로젝트/LogoFile/Aston_Villa_FC_new_crest.jpg')
