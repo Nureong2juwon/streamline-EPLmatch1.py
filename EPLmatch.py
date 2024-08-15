@@ -341,3 +341,106 @@ if epl_team_list == "Liverpool":
         st.image(Arsenal_img,width=17)
         st.image(Brighton_img,width=17)
         st.image(CrystalPalace_img,width=17)
+
+#토트넘 매치데이터
+Tottenham_match_dataframe = {
+    'Home/Away' : ['A','H','A','H','H','A','A','H','A','H'],
+    'Versus' : ['Leicester City','Everton','Newcastle','Arsenal','Brentford','Manchester Ut','Brighton'
+                ,'Westham Utd','Crystal Palace','Aston Villa'],
+    'Date' : ['08/20','08/24','09/01','09/15','09/21','09/30','10/07','10/19','10/27','11/03'],
+    'Time' : ['04:00','23:00','21:30','22:00','23:00','00:30','00:30','20:30','23:00','00:00'],
+}
+
+Tottenham_match_dataframe1 = {
+    'Home/Away' : ['H','A','H','A','H','A','H','A','H','H'],
+    'Versus' : ['Ipswich','Manchester City','Fulham','Bournemouth','Chelsea','Southhampton'
+                ,'Liverpool','Nottingham Ft','Wolves','Newcastle'],
+    'Date' : ['11/10','11/24','12/01','12/05','12/08','12/15','12/22','12/27','12/30','01/05'],
+    'Time' : ['00:00','00:00','00:00','04:45','00:00','00:00','00:00','00:00','00:00','00:00'],
+}
+        
+Tottenham_match_dataframe2 = {
+    'Home/Away' : ['A','A','H','A','H','A','H','H','A','A'],
+    'Versus' : ['Arsenal','Everton','Leicester City','Brentford','Manchester Ut','Ipswich'
+                ,'Manchester City','Bournemouth','Fulham','Chelsea'],
+    'Date' : ['01/15','01/19','01/26','02/02','02/16','02/23','02/26','03/09','03/16','04/03'],
+    'Time' : ['04:45','00:00','00:00','00:00','00:00','00:00','04:45','00:00','00:00','03:45'],
+}
+
+Tottenham_match_dataframe3 = {
+    'Home/Away' : ['H','A','H','A','A','H','A','H'],
+    'Versus' : ['Southhampton','Wolves','Nottingham Ft','Liverpool','Westham Utd','Crystal Palace'
+                ,'Aston Villa','Brighton'],
+   'Date' : ['04/05','04/12','04/19','04/26','05/03','05/10','05/18','05/26'],
+    'Time' : ['23:00','23:00','23:00','23:00','23:00','23:00','23:00','00:00'],
+}
+
+Tottenham_match_dataframe_to10R= pd.DataFrame(Tottenham_match_dataframe, index=Index)
+Tottenham_match_dataframe_to20R= pd.DataFrame(Tottenham_match_dataframe1, index=Index1)
+Tottenham_match_dataframe_to30R= pd.DataFrame(Tottenham_match_dataframe2, index=Index2)
+Tottenham_match_dataframe_to38R= pd.DataFrame(Tottenham_match_dataframe3, index=Index3)
+
+if epl_team_list == "Liverpool":
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write(Tottenham_match_dataframe_to10R,Tottenham_match_dataframe_to20R,
+                 Tottenham_match_dataframe_to30R,Tottenham_match_dataframe_to38R)
+
+    with col2:
+        #to 10R
+        st.write('')
+        st.write('')
+        st.write('')
+        st.image(Leicester_img,width=17)
+        st.image(Everton_img,width=17)
+        st.image(Newcastle_img,width=17)
+        st.image(Arsenal_img,width=9)
+        st.image(Brentford_img,width=17)
+        st.image(ManchesterUtd_img,width=17)
+        st.image(Brighton_img,width=17)
+        st.image(WesthamUtd_img,width=17)
+        st.image(CrystalPalace_img,width=17)
+        st.image(AstonVilla_img,width=17)
+        #to 20R
+        st.write('')
+        st.write('')
+        st.write('')
+        st.write('')
+        st.image(Ipswich_img,width=17)
+        st.image(ManchesterCity_img,width=17)
+        st.image(Fulham_img,width=17)
+        st.image(Bournemouth_img,width=17)
+        st.image(Chelsea_img,width=17)
+        st.image(Southhampton_img,width=17)
+        st.image(Liverpool_img,width=17)
+        st.image(NottinghamFrst_img,width=9)
+        st.image(Wolves_img,width=17)
+        st.image(Newcastle_img,width=17)
+        #to 30R
+        st.write('')
+        st.write('')
+        st.write('')
+        st.write('')
+        st.image(Arsenal_img,width=17)
+        st.image(Everton_img,width=17)
+        st.image(Leicester_img,width=17)
+        st.image(Brentford_img,width=17)
+        st.image(ManchesterUtd_img,width=17)
+        st.image(Ipswich_img,width=17)
+        st.image(ManchesterCity_img,width=17)
+        st.image(Bournemouth_img,width=17)
+        st.image(Fulham_img,width=17)
+        st.image(Chelsea_img,width=17)
+        #to 38R
+        st.write('')
+        st.write('')
+        st.write('')
+        st.write('')
+        st.image(Southhampton_img,width=17)
+        st.image(Wolves_img,width=17)
+        st.image(NottinghamFrst_img,width=9)
+        st.image(Liverpool_img,width=17)
+        st.image(WesthamUtd_img,width=17)
+        st.image(CrystalPalace_img,width=17)
+        st.image(AstonVilla_img,width=17)
+        st.image(Brighton_img,width=17)
