@@ -394,7 +394,7 @@ if epl_team_list == "Tottenham Hotspur":
         st.image(Leicester_img,width=17)
         st.image(Everton_img,width=17)
         st.image(Newcastle_img,width=17)
-        st.image(Arsenal_img,width=9)
+        st.image(Arsenal_img,width=17)
         st.image(Brentford_img,width=17)
         st.image(ManchesterUtd_img,width=17)
         st.image(Brighton_img,width=17)
