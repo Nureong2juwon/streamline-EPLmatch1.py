@@ -380,7 +380,7 @@ Tottenham_match_dataframe_to20R= pd.DataFrame(Tottenham_match_dataframe1, index=
 Tottenham_match_dataframe_to30R= pd.DataFrame(Tottenham_match_dataframe2, index=Index2)
 Tottenham_match_dataframe_to38R= pd.DataFrame(Tottenham_match_dataframe3, index=Index3)
 
-if epl_team_list == "Liverpool":
+if epl_team_list == "Tottenham Hotspur":
     col1, col2 = st.columns(2)
     with col1:
         st.write(Tottenham_match_dataframe_to10R,Tottenham_match_dataframe_to20R,
